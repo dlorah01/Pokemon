@@ -1,0 +1,64 @@
+.col-md-12{
+	float: left;
+}
+.element{
+	display: inline-block;
+    width: 10%;
+    cursor: pointer;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 2px blue, 2px 0 blue, 0 -1px blue;
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-top: -20px;
+    color: dimgray;
+    padding-bottom: 14px;
+    border-bottom: 3px dotted gainsboro;
+}
+
+.element h6{
+	text-align: center;
+    height: 40px;
+    margin-top: -30px;
+    color: crimson;
+}
+
+.element h5{
+	text-align: center;
+    height: 40px;
+    color: navy;
+    text-transform: uppercase;
+}
+
+.element h2{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 2px blue, 2px 0 blue, 0 -1px blue;
+}
+
+.size {
+    width: 30%;
+    margin: 1%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder {
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder { 
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }

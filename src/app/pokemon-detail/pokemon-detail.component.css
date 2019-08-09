@@ -1,0 +1,27 @@
+ img{
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: -30px;
+ 	width: 180px;
+  	height: 180px;
+}
+
+.element img{
+	display: inline-block;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 2px blue, 2px 0 blue, 0 -1px blue;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+.element h3 {
+	text-transform: capitalize;
+	color: navy;
+}
+.element h3 strong {
+	text-transform: uppercase;
+	color: crimson;
+}

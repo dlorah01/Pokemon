@@ -1,0 +1,23 @@
+<div *ngIf="!this.cargado" class="contanier custom-container-2">Cargando</div>
+<div *ngIf="this.cargado" class="container custom-container-2">
+	<h1>{{pokemonData.name}}</h1>
+
+  <!-- Employees list table, it hides when there is no employee -->
+  <div *ngIf="pokemonData.length !== 0">
+    <div class="col-md-12">
+    	<div class="element" routerLink="/pokemons">
+    		<img class="main" src="{{this.imagePokemon}}">
+    		<h3 ><strong>Nombre: </strong>{{pokemonData.name}}. </h3>
+    		<h3 ><strong>Peso: </strong>{{pokemonData.weight}}.</h3>
+    		<h3 ><strong>Altura: </strong>{{pokemonData.height}}.</h3>
+    		<h3 ><strong>Habilidad: </strong>{{this.poke}}.</h3>
+        <h3 ><strong>Comparte con: </strong>{{this.pokemon1.name}}, {{this.pokemon2.name}}.</h3>
+        <img *ngIf="this.image1 != null" class="element" src="{{this.image1}}"><img *ngIf="this.image2 != null" src="{{this.image2}}">
+    		
+    	</div>
+    	  <button class="btn btn-primary"  routerLink="/pokemons">Back</button>
+    </div>
+
+  </div>
+
+</div>
