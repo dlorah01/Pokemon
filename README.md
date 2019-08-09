@@ -2,7 +2,7 @@
 
 This project was developed by Harold Garcia and it was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
-##Instructions
+## Instrucciones
 
 Descargar o clonar este proyecto, descomprimir e ir a la carpeta raiz. Seguidamente ejecutar el comando `npm install` para instalar todas las dependencias necesarias del proyecto. Seguidamente ejecutar el comando `ng serve` para desplegar el proyecto en el navegador web.
 
